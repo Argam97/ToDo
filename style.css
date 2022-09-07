@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.section-1 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.inp {
+    width: 100%;
+}
+.ToDo-inputs {
+    width: 70%;
+    min-height: 50vh;
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0 0 0;
+}
+.button-input {
+    width: 25%;
+    text-align: center;
+    border: 1px ridge black;
+    border-radius: 10px 0 10px 0;
+    cursor: pointer;
+    background-color: silver;
+}
+
+.text-input {
+    width: 50%;
+    border: 1px ridge black;
+    border-radius: 10px 0 10px 0;
+}
+
+.text-input:hover {
+    background-color: aqua;
+}
+
+
+.ToDo-lists {
+    width: 50%;
+    min-height: 25px;
+    background-color: silver;
+    border-radius: 15px;
+}
+.ToDo-ul {
+    width: 100%;
+    min-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 5px 0;
+}
+.ToDo-ul > li {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.li_p {
+    width: 80%;
+    overflow: hidden;
+}
+.li {
+    text-decoration: line-through;
+
+}
+.li-img {
+    width: 25px;
+    height: 25px;
+}
